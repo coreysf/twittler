@@ -1,0 +1,57 @@
+body {
+	background-image: url('light_blue_background_pattern.jpg');
+}
+
+#header {
+	height: 100px;
+	width: 900px;
+	padding: 5px 20px;
+	margin: 0 auto 20px auto;
+	background: lightblue;
+	background: linear-gradient(to right bottom, darkblue, blue, lightblue);
+}
+
+h1 {
+	text-align: right;
+	line-height: 50px;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+#loadTweets, #resetFilter {
+	background: lightgray;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#mainContent, #filteredContent {
+	width: 900px;
+	height: 300px;
+	overflow: auto;
+	padding: 10px 20px;
+	margin: 20px auto;
+	border: 1px solid darkgray;
+	color: red;
+	background: beige;
+}
+
+#filteredContent {
+	height: 200px;
+	background: lightgray;
+}
+
+.mracus, .mracus_link {
+	color: blue;
+}
+
+.shawndrost, .shawndrost_link {
+	color: green;
+}
+
+.douglascalhoun, .douglascalhoun_link {
+	color: purple;
+}
+
+.sharksforcheap, .sharksforcheap_link {
+	color: red;
+}
